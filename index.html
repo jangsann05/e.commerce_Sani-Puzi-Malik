@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sann Store - Toko fashion Online</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <a href="#" class="logo">SannStore</a>
+        <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+          ☰
+        </button>
+        <a href="#" class="cart-icon">
+          🛒
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+      <nav>
+        <div class="nav-container">
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#produk">Produk</a></li>
+            <li><a href="#kategori">Kategori</a></li>
+            <li><a href="#tentang">Tentang Kami</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="beranda">
+        <section class="hero">
+          <h1>Selamat Datang di SannStore</h1>
+          <p>Temukan fashion dan terbaru dengan harga terjangkau</p>
+          <a href="#produk" class="cta-button">Belanja Sekarang</a>
+        </section>
+      </section>
+
+      <section id="produk">
+        <h2>Produk Terbaru</h2>
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-image">👟</div>
+            <div class="product-info">
+              <h3 class="product-name">Adidas Superstar</h3>
+              <p class="product-description">
+                Adidas Superstar
+Deskripsi: Model klasik sejak 1969 dengan desain kulit putih dan shell toe khas. Cocok untuk gaya kasual dan streetwear.
+              </p>
+              <div class="product-price">Rp 1.399.000</div>
+              <button class="add-to-cart" onclick="addToCart()">
+                Tambah ke Keranjang
+              </button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">👟</div>
+            <div class="product-info">
+              <h3 class="product-name">Adidas Stan Smith</h3>
+              <p class="product-description">
+              Adidas Stan Smith
+Deskripsi: Awalnya dirancang untuk tenis, kini menjadi simbol gaya minimalis dengan kulit putih dan perforasi tiga garis.  
+              </p>
+              <div class="product-price">Rp 1.500.000</div>
+              <button class="add-to-cart" onclick="addToCart()">
+                Tambah ke Keranjang
+              </button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">👟</div>
+            <div class="product-info">
+              <h3 class="product-name">Adidas NMD R1</h3>
+              <p class="product-description">
+                Keyboard wireless premium dengan tombol nyaman dan backlight otomatis.
+              </p>
+              <div class="product-price">Rp 3.500.000</div>
+              <button class="add-to-cart" onclick="addToCart()">
+                Tambah ke Keranjang
+              </button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">👕</div>
+            <div Supreme Tyler The Creator Black Tee FW24</h3>
+              <p class="product-description">
+                Supreme Tyler The Creator Black Tee FW24
+
+Deskripsi: Kaos hitam dengan desain kolaborasi bersama Tyler The Creator, menampilkan grafis unik di bagian depan.
+              </p>
+              <div class="product-price">Rp 4.500.000</div>
+              <button class="add-to-cart" onclick="addToCart()">
+                Tambah ke Keranjang
+              </button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="kategori">
+        <h2>Kategori produk</h2>
+        <div class="categories">
+          <div class="category-card">
+            <div class="category-icon">👟</div>
+            <h3>sepatu</h3>
+            <p>nyaman dan bikin keren</p>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">👟</div>
+            <h3>Sepatu</h3>
+            <p>nyaman dan kece</p>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">👟</div>
+            <h3>Keyboard</h3>
+            <p>keren dan nyaman</p>
+          </div>
+          <div class="category-card">
+            <div class="category-icon">👕</div>
+            <h3>baju</h3>
+            <p>keren ke penampilan</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="tentang">
+        <h2>Tentang Kami</h2>
+        <div class="about-content">
+          <p>
+            SannStore adalah toko fashion online terpercaya yang menyediakan
+            berbagai fashion terbaru dengan kualitas
+            terjamin.
+          </p>
+          <p>
+            Kami berkomitmen untuk memberikan pengalaman berbelanja yang mudah,
+            aman, dan memuaskan dengan layanan pelanggan terbaik dan jaminan
+            produk original.
+          </p>
+          <p>
+            Dengan pengalaman lebih dari 10 tahun di industri teknologi, kami
+            telah melayani ribuan pelanggan di seluruh Indonesia dengan kepuasan
+            mencapai 98%.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>SannStore</h3>
+          <p>
+            Toko fashion online terpercaya dengan produk berkualitas dan
+            pelayanan terbaik.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h3>Tautan Cepat</h3>
+          <p><a href="#">Beranda</a></p>
+          <p><a href="#produk">Produk</a></p>
+          <p><a href="#kategori">Kategori</a></p>
+          <p><a href="#tentang">Tentang Kami</a></p>
+        </div>
+        <div class="footer-section">
+          <h3>Layanan</h3>
+          <p><a href="#">Bantuan</a></p>
+          <p><a href="#">Kebijakan Privasi</a></p>
+          <p><a href="#">Syarat & Ketentuan</a></p>
+          <p><a href="#">Pengembalian</a></p>
+        </div>
+        <div class="footer-section">
+          <section id="kontak">
+            <h3>Kontak</h3>
+            <p>Email: info@sannstore.com</p>
+            <p>Telepon: (021) 123-4666</p>
+            <p>WhatsApp: +62 852-8969-6804</p>
+          </section>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 SannStore. Seluruh hak cipta dilindungi.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+                                      
